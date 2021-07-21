@@ -1,7 +1,7 @@
 is_hot = True
 
 if is_hot:
-    print("its a hot day ");
+    print("its a hot day ")
     print("drink plenty of water")
 elif is_cold:
     print("its a coldnday")
