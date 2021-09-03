@@ -13,10 +13,10 @@ print(age)''')
 K= float(input("what is your weght in kilos? "))
 L= float(input('what is your weight in pounds? '))
 
-unit = input( 'kilos(K) or ponds (L)')
 if (K):
     coverted = L* 0.5
     print(f"you are {coverted} kilos")
 else:
     coverted = K /0.5
     print(f"you are {coverted} pounds") 
+StopAsyncIteration
