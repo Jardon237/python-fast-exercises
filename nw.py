@@ -49,7 +49,7 @@ elif is_cold:
     print('its a cold day')
     print('wear warm clothes')
 else:
-    print("its alovely day") ''')
+    print("its alovely day") 
 
 Has_good_credit =True
 price = 1000000
@@ -58,11 +58,15 @@ if Has_good_credit:
     print(f"your down payment is ${down_payment}")
 else:
     down_payment = int(0.2 * price)
-    print(f"your down payment is ${down_payment}")
-    
+print(f"your down payment is ${down_payment}") 
+''')
 
-
-
-
-  
+#comparison operator
+ name = 'Ngwa Jude'
+ if len(name) < 3:
+     print("name must be 3 characters")
+eleif len(name) > 50:
+    print('name can be 50 characters max')
+else:
+    print('name loooks good')
 
