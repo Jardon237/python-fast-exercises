@@ -3,21 +3,10 @@ print("o----")
 print("|||||")
 print("*" * 10)
 
-#vairables
+#input
 price =10
-rating= 4.9
-name='jude'
-is_public = False  
-
- 
-
-
-
-
-
-
-
-
-
-
-
+birth_year = int(input('birth year: '))
+print(type(birth_year))
+age= 2021 - birth_year
+print(type(age))
+print(age)
