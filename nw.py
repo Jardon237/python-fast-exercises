@@ -19,7 +19,7 @@ if (K):
 else:
     coverted = K /0.5
     print(f"you are {coverted} pounds") 
-StopAsyncIteration '''
+StopAsyncIteration 
 
 #strings
 course = 'Python'
@@ -29,4 +29,8 @@ print(course.lower())
 print(course.title())
 print(course.find('P')) #returns index
 print(course.replace('P', 'J')) #replace method replaces a word or letter in a string
-print('Python' in course) #in operator returns a boolean value 
+print('Python' in course) #in operator returns a boolean value ''')
+
+#arithmetic operations
+  
+
