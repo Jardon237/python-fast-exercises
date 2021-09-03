@@ -4,9 +4,19 @@ print("|||||")
 print("*" * 10)
 
 #input
-price =10
-birth_year = int(input('birth year: '))
+('''birth_year = int(input('whats your birth year? '))
 print(type(birth_year))
-age= 2021 - birth_year
+age = 2021 - birth_year
 print(type(age))
-print(age)
+print(age)''')
+
+K= float(input("what is your weght in kilos? "))
+L= float(input('what is your weight in pounds? '))
+
+unit = input( 'kilos(K) or ponds (L)')
+if (K):
+    coverted = L* 0.5
+    print(f"you are {coverted} kilos")
+else:
+    coverted = K /0.5
+    print(f"you are {coverted} pounds") 
