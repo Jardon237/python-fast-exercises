@@ -119,9 +119,12 @@ i = 0
 while i<10:
     i = i+1
     print(i)
-  '''
+ 
 
 numbers = [6 ,2 ,5 ,2, 2]
 
 for number in numbers:
-    print("x"* number)
+    print("x"* number)'''
+numbers = [2 ,2 ,2 ,2, 6]
+for number in numbers:
+    print('X' * number)
