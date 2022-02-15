@@ -132,10 +132,18 @@ for number in numbers:
 squares=[]
 for value in range(1,11):
     squares.append(value**2)
-print(squares)'''
+print(squares)
 
 millon=[]
 for numbers in range(1,1000001):
     millon.append(numbers)
-#print(millon)
-print(millon.pop(0))
+print(millon)
+print(millon.pop(0))'''
+color = ['red', 'green', 'yellow']
+
+if color[1]:
+    print('player just earned 5pnts')
+if color[2]:
+    print('player just earned 5pnts')
+else:
+    print("player earned 10pnts")
