@@ -124,7 +124,12 @@ while i<10:
 numbers = [6 ,2 ,5 ,2, 2]
 
 for number in numbers:
-    print("x"* number)'''
+    print("x"* number)
 numbers = [2 ,2 ,2 ,2, 6]
 for number in numbers:
-    print('X' * number)
+    print('X' * number)'''
+
+squares=[]
+for value in range(1,11):
+    squares.append(value**2)
+print(squares)
