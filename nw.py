@@ -127,9 +127,15 @@ for number in numbers:
     print("x"* number)
 numbers = [2 ,2 ,2 ,2, 6]
 for number in numbers:
-    print('X' * number)'''
+    print('X' * number)
 
 squares=[]
 for value in range(1,11):
     squares.append(value**2)
-print(squares)
+print(squares)'''
+
+millon=[]
+for numbers in range(1,1000001):
+    millon.append(numbers)
+#print(millon)
+print(millon.pop(0))
