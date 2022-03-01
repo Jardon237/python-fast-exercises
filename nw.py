@@ -138,12 +138,26 @@ millon=[]
 for numbers in range(1,1000001):
     millon.append(numbers)
 print(millon)
-print(millon.pop(0))'''
+print(millon.pop(0))
 color = ['red', 'green', 'yellow']
 
 if color[1]:
     print('player just earned 5pnts')
 if color[2]:
-    print('player just earned 5pnts')
+    print('player just earned 10pnts')
 else:
     print("player earned 10pnts")
+
+age = 2
+if age < 2:
+    print('person ios a baby')
+elif age <= 2 and age <4:
+    print('perso is a todder')
+elif age <=13 and age < 20:
+    print('person is a teen')'''
+
+a = 1
+while a > 0
+    print(a)
+    a=a+1
+    break
