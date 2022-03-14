@@ -12,13 +12,7 @@ print(type(age))
 print(age)
 
 K= float(input("what is your weght in kilos? "))
-L= float(input('what is your weight in pounds? '))
-
-if (K):
-    coverted = L* 0.5
-    print(f"you are {coverted} kilos")
-else:
-    coverted = K /0.5
+L= float(input('what is your weight in pounds? '))lib     coverted = K /0.5
     print(f"you are {coverted} pounds") 
 StopAsyncIteration 
 
@@ -149,10 +143,17 @@ if age < 2:
 elif age <= 2 and age <4:
     print('perso is a todder')
 elif age <=13 and age < 20:
-    print('person is a teen')'''
+    print('person is a teen')
 
 a = 1
-while a > 0
+while a > 0:
     print(a)
     a=a+1
     break
+'''
+cars = ['audi', 'bmw', 'subaru', 'toyota']
+for car in cars:
+    if car == "bmw":
+        print(car.upper())
+    else:
+        print(car.title())
