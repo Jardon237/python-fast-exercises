@@ -150,10 +150,22 @@ while a > 0:
     print(a)
     a=a+1
     break
-'''
+
 cars = ['audi', 'bmw', 'subaru', 'toyota']
 for car in cars:
     if car == "bmw":
         print(car.upper())
     else:
         print(car.title())
+        break        
+'''
+
+
+requested_toppings = ['mushrooms', 'extra cheese']
+for requested_topping in requested_toppings:
+    if requested_topping == 'mushrooms':
+        print('sorry we are out of mushrooms')
+    else:
+        print(f"adding {requested_topping}")
+
+print("\nFinished making your pizza" )
