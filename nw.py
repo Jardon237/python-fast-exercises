@@ -45,3 +45,5 @@ number=8
 print(number + 7 * 4 - 5 / number)
 print(f"my favorite number is {number}")
 
+#this is a comment
+'''this is a mul;tiple line comment'''
