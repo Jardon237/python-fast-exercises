@@ -1,3 +1,6 @@
+from ast import And
+import this
+
 #working with varaibles
 message="you are useless"
 
@@ -46,4 +49,10 @@ print(number + 7 * 4 - 5 / number)
 print(f"my favorite number is {number}")
 
 #this is a comment
-'''this is a mul;tiple line comment'''
+this is a mul;tiple line comment
+
+
+#list
+Friend=["drew", "nkini", "Adi", "Laura"]
+print(Friend[0])
+print(f"i would prefer {Friend[1].title()} to all")
