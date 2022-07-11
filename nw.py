@@ -31,3 +31,17 @@ print(f"name:\n {stripping}")
 print(stripping.rstrip())
 print(stripping.strip())
 print(stripping.lstrip())
+
+#working with numbers
+2 + 3 
+3 - 2
+3/2
+10 ** 6  # intergers
+10 * 6
+(2+3) * 4
+
+0.1 #floats
+number=8
+print(number + 7 * 4 - 5 / number)
+print(f"my favorite number is {number}")
+
