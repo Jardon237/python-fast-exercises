@@ -49,10 +49,30 @@ print(number + 7 * 4 - 5 / number)
 print(f"my favorite number is {number}")
 
 #this is a comment
-this is a mul;tiple line comment
+'''this is a mul;tiple line comment'''
 
 
 #list
-Friend=["drew", "nkini", "Adi", "Laura"]
+Friend=["drew", "nkini", "adi", "laura" "zack"]
 print(Friend[0])
 print(f"i would prefer {Friend[1].title()} to all")
+
+Friend[0]="vince"
+Friend.append("Ebenezar")
+Friend.pop(-2)
+del Friend[2]
+print(Friend)
+
+Guest_list= ["john", "peter", "james", "paul"]
+print(f"{Guest_list[0].title()} you are invited for a dinner")
+print(f"{Guest_list[1].title()} you are invited for a dinner")
+print(f"{Guest_list[2].title()} you are invited for a dinner")
+print(f"{Guest_list[3].title()} you are invited for a dinner")
+Guest_list.pop(2)
+Guest_list.append("bih")
+Guest_list[0]="patour"
+Guest_list[3]="new"
+Guest_list.append("trash")
+print(Guest_list)
+
+
