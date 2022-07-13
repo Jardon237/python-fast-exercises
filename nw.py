@@ -75,4 +75,13 @@ Guest_list[3]="new"
 Guest_list.append("trash")
 print(Guest_list)
 
+# looping through an entire list
+pizzas =['pepperoni', 'jinjer', 'tomatoe', 'nular']
+for pizza in pizzas:
+    print(f" i like {pizza.title()} pizza \n")
+print("my love for pizza is immeaqsurable to anything on earth")
 
+animals =['dog', 'cat', 'rabbit', 'rat']
+for animal in animals:
+    print(f"A {animal.title()} will make a great pet \n")
+print("these are the best pets i know so far")
