@@ -1,4 +1,5 @@
 from ast import And
+from optparse import Values
 import this
 
 #working with varaibles
@@ -85,3 +86,32 @@ animals =['dog', 'cat', 'rabbit', 'rat']
 for animal in animals:
     print(f"A {animal.title()} will make a great pet \n")
 print("these are the best pets i know so far")
+ 
+ #making numerical list
+for values in range(1, 21):
+    print(values)
+    
+one_milion=[]
+for values in range (1, 10000001):
+    one_milion.append(values)
+   # print(one_milion)
+min(one_milion)
+max(one_milion)
+
+odd=[]
+for values in range (1,20,2): # odd numbers from 1 to 20
+    odd.append(values)
+print(odd)
+
+threes=list(range(3,30,3)) #printing multiples of 3
+print(threes)
+
+cube=[]
+for values in range (1,11):
+    cube.append(values**3)
+print (cube)
+
+
+
+
+
