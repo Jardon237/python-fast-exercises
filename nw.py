@@ -54,7 +54,7 @@ print(f"my favorite number is {number}")
 
 
 #list
-Friend=["drew", "nkini", "adi", "laura" "zack"]
+Friend=["drew", "nkini", "adi", "laura","zack", "mark", "steve"]
 print(Friend[0])
 print(f"i would prefer {Friend[1].title()} to all")
 
@@ -71,7 +71,6 @@ print(f"{Guest_list[2].title()} you are invited for a dinner")
 print(f"{Guest_list[3].title()} you are invited for a dinner")
 Guest_list.pop(2)
 Guest_list.append("bih")
-Guest_list[0]="patour"
 Guest_list[3]="new"
 Guest_list.append("trash")
 print(Guest_list)
@@ -107,11 +106,28 @@ threes=list(range(3,30,3)) #printing multiples of 3
 print(threes)
 
 cube=[]
-for values in range (1,11):
-    cube.append(values**3)
 print (cube)
 
+#working with part of a list
+print("my firts friends are")
+for Friend in Friend[:3]:
+    print(Friend)
 
+print("my middle friends are")
+for Friend in Friend[1:4]:
+    print(Friend)
 
+print("my last friends are")
+for Friend in Friend[2:5]:
+    print(Friend)
 
+frind_pizza =pizzas[:]
+frind_pizza.append("egg")
+print(frind_pizza)
+print(f"my favorite pizzas are")
+for pizza in pizzas:
+    print(pizza)
+print("my friend's favourite pizzaS are:")
+for frind_pizza in frind_pizza:
+    print(frind_pizza)
 
