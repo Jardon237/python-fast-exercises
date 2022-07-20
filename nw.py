@@ -1,4 +1,4 @@
-from ast import And
+from ast import And, FloorDiv
 from optparse import Values
 import this
 
@@ -130,4 +130,33 @@ for pizza in pizzas:
 print("my friend's favourite pizzaS are:")
 for frind_pizza in frind_pizza:
     print(frind_pizza)
+
+#tuples (fixed list)
+foods=("rice", "beans", "spaghetti", "plantains", "yams")
+print('\n These are the avialable foods we have today')
+
+for food in foods:
+    print(food)
+#foods[0]="g.nut soup"
+foods=("rice", "beans", "spaghett", "plantains", "irish")
+print("this is the menu for today")
+for food in foods:
+    print(food)
+#If statements
+car ="bmw"
+print("Is car =='bmw'? i predict True.")
+print(car =='bmw')
+
+print ("\n is car =='audi'? i predict false")
+print(car =='audi')
+   
+print (3 < 2)
+print (3 == 2)
+print( 3 <= 3)
+print
+print(car.lower() =="bmw")
+
+print("rice" in foods)
+print("pork" in foods)
+
 
