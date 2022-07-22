@@ -1,4 +1,7 @@
 #using input when recieving data
+from operator import ne
+from timeit import repeat
+
 car =input("what type of car do u want ")
 print(f"let me see if i can find you a {car}")
 
@@ -12,3 +15,10 @@ if number % 10 == 0:
     print("number is a multiple of 10")
 else:
     print("number is not a multiple of 10")
+
+#while loops
+promt ="Tell me something and i'll repeat it to you "
+message =""
+while message != "quit":
+    message=input(promt)
+    print(message)
