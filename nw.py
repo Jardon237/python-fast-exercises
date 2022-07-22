@@ -193,6 +193,46 @@ if "range" in fav_fruits:
 if "nion" in fav_fruits:
     print("manageble")
 
+#if statements with list
+hello_admins=['nico', 'drew', 'jardon', 'blaise', 'dart']
+for hello_admin in hello_admins:
+    if hello_admin =="jardon":
+        print(f"hello {hello_admin.title()} would you like a status report?")
+    else:
+        print(f"hello {hello_admin.title()}, thanks for logging in")
+    if hello_admins ==[]:
+        print("we need to find more users")
+    else:
+        print("users look good")
 
+currenr_users=['bj', 'be', 'ben', 'james', 'jude']
+New_Users=['Bless', 'jude', 'bj', 'marie', 'claire']
 
+for New_User in New_Users:
+    if New_User in currenr_users:
+        print("take a new user name")
+    else:
+        print("user name is available")
 
+ord_numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9]
+for ord_number in ord_numbers:
+    if ord_numbers[0] ==1:
+        print("1st")
+    if ord_numbers[1] ==2:
+        print("2nd")
+    elif ord_numbers[2] ==3:    
+        print("3rd")
+    elif ord_numbers[3] ==4:  
+        print("4th")
+    elif ord_numbers[4] ==5:  
+        print("5th")
+    elif ord_numbers[5] ==6:
+        print("6th")
+    elif ord_numbers[6] ==7: 
+        print("7th")
+    elif ord_numbers[7] ==8:
+        print("8th")
+    elif ord_numbers[8] ==9:
+        print("9th")
+    else:
+        print('stop') 
