@@ -159,4 +159,40 @@ print(car.lower() =="bmw")
 print("rice" in foods)
 print("pork" in foods)
 
+#if-else statements
+
+alien_colors=['green', 'red', 'yellow', ]
+if alien_colors == 'green':
+    print("you just earned 5noints")
+elif alien_colors == "yellow":
+    print("you just earned 10 points")
+elif alien_colors =='red':
+    print("you earned 15 points")
+else:
+    print("you loose")
+
+age = 10
+if age < 2:
+    print("pedrson is still a baby")
+elif age == 2 and age <4:
+    print('person is a toodler')
+elif age <=4 and age < 13:
+    print("person is a kid")
+elif age <=13 and age <20:
+    print("person is a teenager")
+elif age <=20 and age < 65:
+    print('person is an adult')
+elif age > 65:
+    print("print person is an elder")
+
+fav_fruits=['pine', 'range', 'nion', 'grape']
+if 'pine' in fav_fruits:
+    print("i really like pine")
+if "range" in fav_fruits:
+    print("worst")
+if "nion" in fav_fruits:
+    print("manageble")
+
+
+
 
