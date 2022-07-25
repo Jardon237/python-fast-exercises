@@ -27,3 +27,17 @@ while same:
     else:
         print(message)
     
+promt ="Enter a pizza "
+message =""
+while message !="quit":
+    message=input(promt)
+    print(message)
+
+age=int(input("what is your age? "))
+while age <=12:
+    if age < 3:
+        print("ticket is free")
+    elif age >3 and age <12:
+        print("your ticket cost $10")
+    elif age > 12:
+        print("your ticket cost $15")
