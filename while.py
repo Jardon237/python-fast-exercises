@@ -1,5 +1,4 @@
 #using input when recieving data
-
 from timeit import repeat
 
 car =input("what type of car do u want ")
@@ -23,7 +22,8 @@ same = True
 while same:
     message =input(promt)
 
-    if message !="quit":
-        print(message)
+    if message =="quit":
+        same = False
     else:
-        active = False
+        print(message)
+    
