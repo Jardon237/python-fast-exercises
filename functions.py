@@ -33,3 +33,30 @@ def buld_person(first_name, last_name):
     return person
 me = buld_person("Ngwa", "Jude")
 print(me)
+
+def get_formateed(first, last):
+    full_name = f"{first} {last}"
+    return full_name.title()
+    
+while True:
+        print("\n enter your name: ")
+        print ("enter 'p' to end")
+        first =input("first name ")
+        last = input("last name ")
+        if first == 'p':
+            break
+        if last =='p':
+            break
+
+
+def city_country(city , country):
+    place=f"{city} {country}"
+    return place.title()
+place_1=print(city_country('younde', 'cameroon'))
+place_2=print(city_country('new york', 'america'))
+place_3=print(city_country('paris', 'france'))
+
+def make_album(artist, album):
+    musician={'Artist': artist, 'album': album}
+    return musician
+musician =print(make_album("Micheal-learns", "to rock, killed, love, death"))
