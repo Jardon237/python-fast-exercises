@@ -21,3 +21,15 @@ def describe_city(city, country="germany"):
 describe_city(city='berlin')
 describe_city(city="younde", country="cameroon")
 describe_city("los angeles", "america")
+
+def get_formatted_name(first_name, last_name):
+    full_name = f"{first_name} {last_name}"
+    return full_name.title()
+musician=get_formatted_name('jimi', 'hendrix')
+print(musician)
+
+def buld_person(first_name, last_name):
+    person ={'first': first_name, 'last': last_name}
+    return person
+me = buld_person("Ngwa", "Jude")
+print(me)
