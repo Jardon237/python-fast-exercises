@@ -59,4 +59,12 @@ place_3=print(city_country('paris', 'france'))
 def make_album(artist, album):
     musician={'Artist': artist, 'album': album}
     return musician
-musician =print(make_album("Micheal-learns", "to rock, killed, love, death"))
+
+while True:
+    print("\n print 's' to stop")
+    artist= input("enter artist name: ")
+    album =input("enter album: ")
+    if artist and album == 's':
+        break
+    joint=make_album(artist, album)
+    print(f"{joint}")
