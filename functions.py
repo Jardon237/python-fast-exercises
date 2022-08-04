@@ -1,3 +1,4 @@
+
 def display_message():
     print("i am learning about functions")
 display_message()    
@@ -68,3 +69,28 @@ while True:
         break
     joint=make_album(artist, album)
     print(f"{joint}")
+
+
+
+def greet_users(names):
+    for name in names:
+        msg = print(f"hello {name}")
+
+names=["jude", "Ti", "nivo"]
+greet_users(names)
+
+def models(unprinted_designs, completed_designs):
+    while unprinted_designs:
+        current_printing=unprinted_designs.pop()
+        print(current_printing)
+        completed_designs.append(current_printing)
+
+def completed(completed_designs):
+    for completed_design in completed_designs:
+        print("\n These are the completed designs")
+        print(completed_design)
+
+unprinted_desgns=["phone", "case", "robbot", 'chittin']
+completed_desgns=[]
+models(unprinted_desgns, completed_desgns)
+completed(completed_desgns)
