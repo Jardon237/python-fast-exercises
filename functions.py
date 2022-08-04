@@ -94,3 +94,11 @@ unprinted_desgns=["phone", "case", "robbot", 'chittin']
 completed_desgns=[]
 models(unprinted_desgns, completed_desgns)
 completed(completed_desgns)
+
+
+
+def show_message(greetings):
+    for greeting in greetings:
+       message = print(f"Hi {greeting.title()} you are welcome to my stupd party. since you are uselss as others")
+greetings=["vince","drew", "fiene", "dev", "burnley"]
+show_message(greetings)
