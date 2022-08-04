@@ -97,8 +97,21 @@ completed(completed_desgns)
 
 
 
-def show_message(greetings):
-    for greeting in greetings:
-       message = print(f"Hi {greeting.title()} you are welcome to my stupd party. since you are uselss as others")
+def show_message(greetings,new_greetings):
+    while greetings:
+        me=greetings.pop()
+        new_greetings.append(me)
+
+def send_message(new_greetings):
+    for new_greeting in new_greetings:
+        print(f"these are the individual new greetings \n hey {new_greeting} how are u?")
+    print(new_greetings)
+     
+        
+
+       
 greetings=["vince","drew", "fiene", "dev", "burnley"]
-show_message(greetings)
+new_greetings=[]
+show_message(greetings,new_greetings)
+send_message(new_greetings)
+print(greetings)
