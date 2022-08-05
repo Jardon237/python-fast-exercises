@@ -1,3 +1,4 @@
+from cgitb import small
 from os import PRIO_PGRP
 from pydoc import describe
 
@@ -15,6 +16,8 @@ class Restuarant:
         print("we open our doord everydayu from 8am to 5pm")
 
 big_restaurant =Restuarant("philip_lounge", "frech")
-
+small_restaurant=Restuarant("janna", "affrican")
 big_restaurant.describe_restuarant()
 big_restaurant.open_restuarant()
+small_restaurant.describe_restuarant()
+
