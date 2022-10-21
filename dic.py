@@ -1,3 +1,5 @@
-#working with dictionaries
-alien_0={'color':'green', 'points':5}
-print(alien_0)
+def diamond(rows):
+    for i in rows:
+        if i % 2 !=0:
+            remainder = i % 2
+            print(remainder)
